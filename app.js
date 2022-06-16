@@ -4,7 +4,7 @@ const par = document.querySelector(".time");
 function digitalClock () {
     let dateTime = new Date();
     let clock = dateTime.toLocaleTimeString();
-    console.log(clock);
+    // console.log(clock);
     par.innerText = clock;
 };
 
